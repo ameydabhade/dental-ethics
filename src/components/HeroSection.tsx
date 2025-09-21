@@ -9,7 +9,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
     <section className="p-4 md:p-8 lg:p-12 max-w-7xl mx-auto">
       <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-6 leading-tight">
         Missing Teeth? Get Back Your<br />
-        <span className="text-blue-600">Confident Smile!</span>
+        <span className="text-slate-800">Confident Smile!</span>
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
@@ -23,7 +23,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         </div>
 
         {/* Special Offer Section */}
-        <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1">
+        <div className="bg-gradient-to-r from-slate-800 to-slate-900 text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
             Dental Implants starting 
             <span className="text-yellow-300 block text-3xl md:text-4xl lg:text-5xl">@₹20,000</span>
@@ -44,7 +44,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         </button>
         <a
           href="tel:+917030399122" 
-          className="bg-blue-800 text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-blue-900 transition-colors md:min-w-[240px]"
+          className="bg-slate-800 text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-slate-900 transition-colors md:min-w-[240px]"
         >
           CALL NOW ☏
         </a>
@@ -53,7 +53,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       {/* Why Choose Us Section */}
       <div className="mb-8">
         <h3 className="text-xl md:text-3xl font-bold text-center text-gray-900 mb-6">
-          Why choose <span className="text-blue-600">The Dental Ethics?</span>
+          Why choose <span className="text-slate-800">The Dental Ethics?</span>
         </h3>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 mb-6">

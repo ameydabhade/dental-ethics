@@ -65,19 +65,19 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
       <div className="bg-white rounded-lg p-6 w-full max-w-xl max-h-[90vh] overflow-y-auto">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-xl md:text-2xl font-bold text-blue-600">Book Your Appointment</h2>
+          <h2 className="text-xl md:text-2xl font-bold text-slate-800">Book Your Appointment</h2>
           <button onClick={onClose} className="text-gray-500 hover:text-gray-700 text-2xl">&times;</button>
         </div>
         
-        <div className="bg-blue-50 p-3 md:p-4 rounded-lg mb-4 border-l-4 border-blue-200">
-          <p className="text-sm md:text-base text-blue-600 text-center">
+        <div className="bg-gray-50 p-3 md:p-4 rounded-lg mb-4 border-l-4 border-rose-400">
+          <p className="text-sm md:text-base text-slate-800 text-center">
             <strong>Includes:</strong> Free Consultation & Digital scan
-            <span className="text-orange-300 font-bold"> Worth ₹1,000</span>
+            <span className="text-rose-500 font-bold"> Worth ₹1,000</span>
           </p>
         </div>
 
         {/* Countdown Timer */}
-        <div className="bg-blue-600 text-white p-3 md:p-4 rounded-lg mb-4 text-center">
+        <div className="bg-slate-800 text-white p-3 md:p-4 rounded-lg mb-4 text-center">
           <p className="text-sm md:text-base mb-1">⏰ This offer expires in:</p>
           <div className="text-2xl md:text-3xl font-bold">
             {minutes.toString().padStart(2, '0')}:{seconds.toString().padStart(2, '0')}
@@ -114,7 +114,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
               <option value="evening">Evening (5:00 PM - 9:00 PM)</option>
             </select>
           </div>
-          <button type="submit" className="w-full bg-blue-600 text-white py-3 md:py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition-colors">
+          <button type="submit" className="w-full bg-rose-400 text-slate-800 py-3 md:py-4 rounded-lg font-bold text-lg hover:bg-rose-300 transition-colors">
             Book Appointment
           </button>
         </form>

@@ -14,10 +14,10 @@ export default function StickyCTA({ isVisible, onBookAppointment }: StickyCtaPro
           <p className="text-sm">Free Consultation & Digital scan Worth ₹1,000</p>
         </div>
         <div className="flex gap-2">
-          <button onClick={onBookAppointment} className="bg-yellow-400 text-blue-900 px-4 py-2 rounded-lg font-bold text-sm">
+          <button onClick={onBookAppointment} className="bg-rose-400 text-slate-800 px-4 py-2 rounded-lg font-bold text-sm">
             BOOK APPOINTMENT
           </button>
-          <a href="tel:+919175682823" className="bg-blue-800 text-white px-4 py-2 rounded-lg font-bold text-sm">
+          <a href="tel:+917030399122" className="bg-slate-800 text-white px-4 py-2 rounded-lg font-bold text-sm">
             CALL NOW ☏
           </a>
         </div>

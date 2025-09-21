@@ -20,17 +20,17 @@ export default function ThankYouPage() {
             <div className="w-48 h-48 relative rounded-full overflow-hidden border-4 border-blue-100">
               <Image
                 src="/doc.png"
-                alt="Dr. Kavitarani Rudagi"
+                alt="Dr. Umang Shah"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="text-center md:text-left">
               <h2 className="text-xl md:text-2xl font-bold text-blue-900 mb-2">
-                Dr. Kavitarani Rudagi
+                Dr. Umang Shah | Dr Jyoti Shah
               </h2>
               <p className="text-orange-500 font-medium mb-4">
-                Founder & Chief Endodontist
+                Prosthodontist | Implantologist | Certified Invisalign Provider
               </p>
               <p className="text-gray-600 max-w-lg">
                 Our team will review your appointment request and contact you shortly to confirm the details. 

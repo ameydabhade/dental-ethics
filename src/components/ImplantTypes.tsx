@@ -48,14 +48,13 @@ export default function ImplantTypes() {
   ];
 
   return (
-    <section className="bg-blue-600 text-white p-4 md:p-8 lg:p-12 pb-16">
+    <section className="bg-slate-800 text-white p-4 md:p-8 lg:p-12 pb-16">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl md:text-4xl font-bold text-center text-yellow-300 mb-4">
-          When it comes to Dental Implants, choose <em>Dr. Rudagi&apos;s Dental Centre</em>
+        <h2 className="text-2xl md:text-4xl font-bold text-center text-rose-400 mb-4">
+          When it comes to Dental Implants, choose <em>The Dental Ethics</em>
         </h2>
-        <p className="text-center text-blue-100 mb-8 md:text-lg max-w-3xl mx-auto">
-          At Dr. Rudagi&apos;s Dental Centre, we specialize in providing all types of dental implants 
-          to help you achieve a beautiful and functional smile using the latest procedures and technology.
+        <p className="text-center text-green-100 mb-8 md:text-lg max-w-3xl mx-auto">
+          At The Dental Ethics, we specialize in providing comprehensive prosthodontics, implantology, smile designing, and Invisalign treatment with advanced digital technology and ethical practice.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
