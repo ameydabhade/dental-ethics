@@ -58,7 +58,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 mb-6">
           {[
-            { icon: "/images/heroicons/Experience.png", title: "8+ Years Experience", desc: "Expert Prosthodontist" }
+            { icon: "/images/heroicons/Experience.png", title: "8+ Years Experience", desc: "Expert Prosthodontist" },
             { icon: "/images/heroicons/painless.png", title: "Painless Procedure", desc: "Advanced Anesthesia" },
             { icon: "/images/heroicons/premium.png", title: "Premium Implants", desc: "International Quality" },
             { icon: "/images/heroicons/team.png", title: "Specialist Team", desc: "Qualified Doctors" },
@@ -75,11 +75,11 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       </div>
 
       <div className="bg-gray-50 p-4 md:p-8 rounded-lg md:max-w-3xl md:mx-auto">
-        <h3 className="font-bold text-blue-600 mb-3 md:text-xl">Why Choose Us?</h3>
+        <h3 className="font-bold text-slate-800 mb-3 md:text-xl">Why Choose Us?</h3>
         <ul className="space-y-2 mb-4">
           <li className="flex items-start gap-2">
             <span className="text-green-500">✔</span>
-            <span className="text-sm md:text-base">8+ years experience in Prosthodontics and Implantology</span>
+            <span className="text-sm md:text-base">8+ years experience in Prosthodontics & Implantology</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-green-500">✔</span>
@@ -87,22 +87,22 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
           </li>
           <li className="flex items-start gap-2">
             <span className="text-green-500">✔</span>
-            <span className="text-sm md:text-base">No-cost financing for 3 months</span>
+            <span className="text-sm md:text-base">0% Interest EMI options available</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-green-500">✔</span>
-            <span className="text-sm md:text-base">Using one of the world&apos;s best <strong>German</strong> implant system with Digital implantology</span>
+            <span className="text-sm md:text-base">Advanced digital technology with in-house digital scanner</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-green-500">✔</span>
-            <span className="text-sm md:text-base">500+ successful implant procedures</span>
+            <span className="text-sm md:text-base">500+ successful dental implants placed and restored</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-green-500">✔</span>
-            <span className="text-sm md:text-base">State-of-the-art clinic on NIBM Road, Pune</span>
+            <span className="text-sm md:text-base">Modern clinic at NIBM Road, Pune with ethical practice approach</span>
           </li>
         </ul>
-        <button onClick={onBookAppointment} className="bg-yellow-400 text-blue-900 py-3 px-6 rounded-lg font-bold w-full hover:bg-yellow-300 transition-colors md:max-w-md md:mx-auto md:block">
+        <button onClick={onBookAppointment} className="bg-rose-400 text-slate-800 py-3 px-6 rounded-lg font-bold w-full hover:bg-rose-300 transition-colors md:max-w-md md:mx-auto md:block">
           Request a Call back ➤
         </button>
         <small className="block text-center mt-2 text-gray-600 md:text-base">
