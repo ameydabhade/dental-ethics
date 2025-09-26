@@ -7,24 +7,56 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "How long does a dental implant procedure take?",
-      answer: "Typically, 2-3 visits over 3 months, depending on bone health. Some cases can be done faster with same-day crowns."
+      question: "What are dental implants?",
+      answer: "Dental implants are artificial tooth roots, usually made of titanium or zirconia, that are surgically placed into the jawbone. They support crowns, bridges, or dentures to replace missing teeth and restore function and aesthetics."
     },
     {
-      question: "Is the treatment painful?",
-      answer: "No. All treatments are performed under local anesthesia with added comfort measures. We also specialize in painless root canals."
+      question: "Am I a candidate for dental implants?",
+      answer: "Most healthy adults with missing teeth are good candidates. You need healthy gums, good overall health, and enough jawbone to support the implant. Even if you have bone loss, procedures like bone grafting can often make implants possible."
     },
     {
-      question: "Are aligners better than braces?",
-      answer: "Yes, for most mild-to-moderate cases. Aligners are invisible, removable, and easier to manage."
+      question: "Are dental implants safe?",
+      answer: "Yes. Dental implants are a proven and safe treatment when placed by trained professionals. They have a high success rate — typically above 95% — when done with proper planning and care."
     },
     {
-      question: "How often should I visit the dentist?",
-      answer: "We recommend every 6 months for a check-up and cleaning—even if you have no symptoms."
+      question: "How long do dental implants last?",
+      answer: "With good oral hygiene and regular dental checkups, dental implants can last 15–25 years or longer. They are considered a long-term or even permanent solution for tooth loss."
     },
     {
-      question: "Do you offer treatments for senior citizens or kids?",
-      answer: "Yes, we offer complete family dentistry—from kids' cavities to full-mouth rehab for seniors."
+      question: "Is the procedure painful?",
+      answer: "No. The implant surgery is usually done under local anesthesia and is painless. Post-surgery, mild discomfort or swelling is normal but manageable with prescribed pain relievers."
+    },
+    {
+      question: "How long does the dental implant process take?",
+      answer: "The full process can take 3 to 6 months, depending on healing time. Immediate implants and same-day teeth options are also available for suitable candidates."
+    },
+    {
+      question: "What is the success rate of dental implants?",
+      answer: "The success rate is typically 95–98%, especially when placed by specialists using modern techniques and proper planning."
+    },
+    {
+      question: "What if I don't have enough bone for implants?",
+      answer: "If you've lost bone in your jaw, you may need a bone graft or sinus lift to create a stable foundation. We use advanced diagnostic tools to assess and plan the most suitable approach."
+    },
+    {
+      question: "Can smokers get dental implants?",
+      answer: "Yes, but smoking can reduce healing and increase the risk of implant failure. We strongly advise quitting smoking before and after the procedure for best results."
+    },
+    {
+      question: "How do I care for my implants?",
+      answer: "Dental implants require daily brushing, flossing, and regular dental visits — just like natural teeth. With good oral hygiene, they can last for many years."
+    },
+    {
+      question: "Are dental implants expensive?",
+      answer: "Dental implants are an investment in your health and quality of life. While the initial cost may be higher than dentures or bridges, implants are more durable and offer better long-term value."
+    },
+    {
+      question: "Will my insurance cover dental implants?",
+      answer: "Some insurance plans may cover part of the implant cost. We can help you check your policy and offer flexible payment or financing options if needed."
+    },
+    {
+      question: "What are the risks or complications?",
+      answer: "As with any surgery, there are small risks such as infection, nerve damage, or implant failure. However, with expert care and proper hygiene, these risks are minimal."
     }
   ];
 
