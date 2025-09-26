@@ -59,9 +59,9 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 mb-6">
           {[
             { icon: "/images/heroicons/Experience.png", title: "8+ Years Experience", desc: "Expert Prosthodontist" },
-            { icon: "/images/heroicons/painless.png", title: "Painless Procedure", desc: "Advanced Anesthesia" },
+            { icon: "/images/heroicons/painless.png", title: "Same Day Implants", desc: "Fix Teeth Same Day" },
             { icon: "/images/heroicons/premium.png", title: "Premium Implants", desc: "International Quality" },
-            { icon: "/images/heroicons/team.png", title: "Specialist Team", desc: "Qualified Doctors" },
+            { icon: "/images/heroicons/team.png", title: "All Teeth in 3 Days", desc: "Complete Treatment" },
             { icon: "/images/heroicons/sterilization.png", title: "100% Sterilization", desc: "Highest Safety Standards" },
             { icon: "/images/heroicons/tech.png", title: "Advanced Technology", desc: "iTero Scanner & More" }
           ].map((usp, index) => (
@@ -92,6 +92,14 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
           <li className="flex items-start gap-2">
             <span className="text-green-500">✔</span>
             <span className="text-sm md:text-base">Advanced digital technology with in-house digital scanner</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-green-500">✔</span>
+            <span className="text-sm md:text-base">Same day implant placement - fix teeth immediately</span>
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-green-500">✔</span>
+            <span className="text-sm md:text-base">Complete all teeth restoration within 3 days</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-green-500">✔</span>
