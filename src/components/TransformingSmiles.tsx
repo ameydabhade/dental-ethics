@@ -49,8 +49,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
           {[
             { video: "test1.mp4", title: "Success Story 1" },
-            { video: "test2.mp4", title: "Success Story 2" },
-            { video: "beforeafter1.mp4", title: "Complete Transformation" }
+            { video: "test2.mp4", title: "Success Story 2" }
           ].map((item, index) => (
             <div key={index} className="bg-gray-200 rounded-xl overflow-hidden relative" style={{ paddingBottom: '177.78%' }}>
               <video 
