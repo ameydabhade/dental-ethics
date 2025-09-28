@@ -21,11 +21,11 @@
   }
   
   .btn-primary {
-    @apply bg-blue-600 text-white hover:bg-blue-700 shadow-lg hover:shadow-xl;
+    @apply bg-[#c8a871] text-[#0c4c2d] hover:bg-[#b89a6a] shadow-lg hover:shadow-xl;
   }
   
   .btn-secondary {
-    @apply bg-blue-800 text-white hover:bg-blue-900 shadow-lg hover:shadow-xl;
+    @apply bg-[#0c4c2d] text-white hover:bg-[#0a3f26] shadow-lg hover:shadow-xl;
   }
   
   /* Card styles */
@@ -49,7 +49,7 @@
   
   /* Gradient text */
   .gradient-text {
-    @apply bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[#c8a871] to-[#0c4c2d] bg-clip-text text-transparent;
   }
   
   /* Pulse effect for CTA buttons */
@@ -67,7 +67,7 @@
   }
   
   .faq-question.active {
-    @apply bg-blue-50 text-blue-600;
+    @apply bg-[#c8a871]/10 text-[#0c4c2d];
   }
   
   .faq-answer {
@@ -84,11 +84,11 @@
   }
   
   .reviewer-avatar {
-    @apply w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm;
+    @apply w-10 h-10 bg-[#0c4c2d] text-white rounded-full flex items-center justify-center font-bold text-sm;
   }
   
   .review-stars {
-    @apply flex text-yellow-400 mb-3;
+    @apply flex text-[#c8a871] mb-3;
   }
   
   /* Doctor profile styles */
@@ -125,7 +125,7 @@
   
   /* CTA box styles */
   .cta-box {
-    @apply bg-blue-600 text-white p-6 rounded-xl text-center;
+    @apply bg-[#0c4c2d] text-white p-6 rounded-xl text-center;
   }
   
   /* Footer styles */
@@ -134,7 +134,7 @@
   }
   
   .footer-section h3 {
-    @apply font-bold text-blue-600 mb-2;
+    @apply font-bold text-[#0c4c2d] mb-2;
   }
   
   .footer-map {
@@ -148,7 +148,7 @@
   
   /* Sticky CTA styles */
   .sticky-cta {
-    @apply fixed bottom-0 left-0 right-0 bg-blue-600 text-white p-4 z-50 transform translate-y-full transition-transform duration-300;
+    @apply fixed bottom-0 left-0 right-0 bg-[#0c4c2d] text-white p-4 z-50 transform translate-y-full transition-transform duration-300;
   }
   
   .sticky-cta.visible {
@@ -191,16 +191,16 @@
   .form-group input,
   .form-group textarea,
   .form-group select {
-    @apply w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+    @apply w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c8a871] focus:border-transparent;
   }
   
   .submit-btn {
-    @apply w-full bg-blue-600 text-white py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors duration-200;
+    @apply w-full bg-[#c8a871] text-[#0c4c2d] py-3 rounded-lg font-bold hover:bg-[#b89a6a] transition-colors duration-200;
   }
   
   /* WhatsApp float button */
   .whatsapp-float {
-    @apply fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors z-50 animate-bounce;
+    @apply fixed bottom-6 right-6 bg-[#0c4c2d] text-white p-4 rounded-full shadow-lg hover:bg-[#0a3f26] transition-colors z-50 animate-bounce;
   }
   
   /* Animated background */
@@ -213,25 +213,25 @@
   }
   
   .animated-bg .circle:nth-child(1) {
-    @apply top-20 left-10 w-32 h-32 bg-blue-200 animate-pulse;
+    @apply top-20 left-10 w-32 h-32 bg-[#c8a871]/20 animate-pulse;
   }
   
   .animated-bg .circle:nth-child(2) {
-    @apply bottom-40 right-10 w-24 h-24 bg-yellow-200 animate-bounce;
+    @apply bottom-40 right-10 w-24 h-24 bg-[#c8a871]/20 animate-bounce;
   }
   
   .animated-bg .circle:nth-child(3) {
-    @apply top-1/2 left-1/4 w-16 h-16 bg-green-200 animate-ping;
+    @apply top-1/2 left-1/4 w-16 h-16 bg-[#0c4c2d]/20 animate-ping;
   }
 }
 
 /* Custom animations */
 @keyframes pulse-shadow {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 0 20px rgba(200, 168, 113, 0.3);
   }
   50% {
-    box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
+    box-shadow: 0 0 40px rgba(200, 168, 113, 0.6);
   }
 }
 
@@ -393,9 +393,9 @@ a:focus,
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid #c8a871;
   outline-offset: 2px;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+  box-shadow: 0 0 0 3px rgba(200, 168, 113, 0.1);
 }
 
 /* Custom scrollbar */
@@ -408,12 +408,12 @@ select:focus {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #2563eb, #3b82f6);
+  background: linear-gradient(to bottom, #0c4c2d, #c8a871);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #1d4ed8, #2563eb);
+  background: linear-gradient(to bottom, #0a3f26, #b89a6a);
 }
 
 /* Print styles */

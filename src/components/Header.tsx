@@ -16,15 +16,15 @@ export default function Header({ onBookAppointment }: HeaderProps) {
             height={48}
             className="h-auto mx-auto mb-4 md:mb-0 md:mx-0"
           />
-          <p className="text-sm text-slate-800 mb-4 md:mb-0">
+          <p className="text-sm text-[#0c4c2d] mb-4 md:mb-0">
             📍 Office no 204, Gagan Ela, NIBM Road, next to Runwal Diamond, Pune 411048
           </p>
         </div>
         <div className="flex flex-col sm:flex-row gap-3 justify-center md:gap-4">
-          <button onClick={onBookAppointment} className="bg-rose-400 text-slate-800 px-6 py-3 rounded-lg font-bold hover:bg-rose-300 transition-colors">
+          <button onClick={onBookAppointment} className="bg-[#c8a871] text-[#0c4c2d] px-6 py-3 rounded-lg font-bold hover:bg-[#b89a6a] transition-colors">
             BOOK APPOINTMENT
           </button>
-          <a href="tel:+917030399122" className="bg-slate-800 text-white px-6 py-3 rounded-lg font-bold hover:bg-slate-900 transition-colors text-center">
+          <a href="tel:+917030399122" className="bg-[#0c4c2d] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#0a3f26] transition-colors text-center">
             CALL NOW ☏
           </a>
         </div>

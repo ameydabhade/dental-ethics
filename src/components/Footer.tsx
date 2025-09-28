@@ -16,20 +16,20 @@ export default function Footer() {
 
         <div className="grid md:grid-cols-3 gap-8 text-center md:text-left mb-8">
           <div>
-            <h3 className="font-bold text-slate-800 mb-2 md:text-lg">Contact Us</h3>
-            <a href="tel:+917030399122" className="block text-slate-800 font-bold md:text-lg hover:text-slate-800-light transition-colors">+91 7030399122</a>
-            <p className="text-slate-800">Emergency: +91 9890353922</p>
-            <p className="text-slate-800">www.thedentalethics.com</p>
+            <h3 className="font-bold text-[#0c4c2d] mb-2 md:text-lg">Contact Us</h3>
+            <a href="tel:+917030399122" className="block text-[#0c4c2d] font-bold md:text-lg hover:text-[#0a3f26] transition-colors">+91 7030399122</a>
+            <p className="text-[#0c4c2d]">Emergency: +91 9890353922</p>
+            <p className="text-[#0c4c2d]">www.thedentalethics.com</p>
           </div>
 
           <div>
-            <h3 className="font-bold text-slate-800 mb-2 md:text-lg">Open Hours</h3>
-            <p className="text-slate-800 md:text-lg">Mon-Sat: 10 AM – 2 PM</p>
+            <h3 className="font-bold text-[#0c4c2d] mb-2 md:text-lg">Open Hours</h3>
+            <p className="text-[#0c4c2d] md:text-lg">Mon-Sat: 10 AM – 2 PM</p>
           </div>
 
           <div>
-            <h3 className="font-bold text-slate-800 mb-2 md:text-lg">Location</h3>
-            <p className="text-slate-800 font-bold">
+            <h3 className="font-bold text-[#0c4c2d] mb-2 md:text-lg">Location</h3>
+            <p className="text-[#0c4c2d] font-bold">
               📍 Office no 204, Gagan Ela, NIBM Road, next to Runwal Diamond, Diagonally opposite to California Society, Pune 411048
             </p>
           </div>

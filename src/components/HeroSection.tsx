@@ -9,7 +9,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
     <section className="p-4 md:p-8 lg:p-12 max-w-7xl mx-auto">
       <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-6 leading-tight">
         Missing Teeth? Get Back Your<br />
-        <span className="text-slate-800">Confident Smile!</span>
+        <span className="text-[#0c4c2d]">Confident Smile!</span>
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
@@ -28,15 +28,15 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         </div>
 
         {/* Special Offer Section */}
-        <div className="bg-gradient-to-r from-slate-800 to-slate-900 text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1">
+        <div className="bg-gradient-to-r from-[#0c4c2d] to-[#0c4c2d] text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
             Dental Implants starting 
-            <span className="text-yellow-300 block text-3xl md:text-4xl lg:text-5xl">@₹20,000</span>
+            <span className="text-[#c8a871] block text-3xl md:text-4xl lg:text-5xl">@₹20,000</span>
             <h3 className="text-lg md:text-xl">Easy emi options available from 3 months</h3>
           </h2>
           <button 
             onClick={onBookAppointment}
-            className="bg-yellow-400 text-blue-900 px-8 py-4 rounded-xl text-xl font-bold shadow-lg hover:bg-yellow-300 transition-colors pulse-element w-full md:w-auto"
+            className="bg-[#c8a871] text-[#0c4c2d] px-8 py-4 rounded-xl text-xl font-bold shadow-lg hover:bg-[#b89a6a] transition-colors pulse-element w-full md:w-auto"
           >
             🎉 Get Offer Now
           </button>
@@ -44,12 +44,12 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       </div>
 
       <div className="flex flex-col gap-3 mb-8 md:flex-row md:justify-center">
-        <button onClick={onBookAppointment} className="bg-yellow-400 text-blue-900 py-4 px-8 rounded-lg font-bold text-lg hover:bg-yellow-300 transition-colors md:min-w-[240px]">
+        <button onClick={onBookAppointment} className="bg-[#c8a871] text-[#0c4c2d] py-4 px-8 rounded-lg font-bold text-lg hover:bg-[#b89a6a] transition-colors md:min-w-[240px]">
           📞 Book FREE Consultation
         </button>
         <a
           href="tel:+917030399122" 
-          className="bg-slate-800 text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-slate-900 transition-colors md:min-w-[240px]"
+          className="bg-[#0c4c2d] text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-[#0a3f26] transition-colors md:min-w-[240px]"
         >
           CALL NOW ☏
         </a>
@@ -58,7 +58,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       {/* Why Choose Us Section */}
       <div className="mb-8">
         <h3 className="text-xl md:text-3xl font-bold text-center text-gray-900 mb-6">
-          Why choose <span className="text-slate-800">The Dental Ethics?</span>
+          Why choose <span className="text-[#0c4c2d]">The Dental Ethics?</span>
         </h3>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 mb-6">
@@ -80,42 +80,42 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       </div>
 
       <div className="bg-gray-50 p-4 md:p-8 rounded-lg md:max-w-3xl md:mx-auto">
-        <h3 className="font-bold text-slate-800 mb-3 md:text-xl">Why Choose Us?</h3>
+        <h3 className="font-bold text-[#0c4c2d] mb-3 md:text-xl">Why Choose Us?</h3>
         <ul className="space-y-2 mb-4">
           <li className="flex items-start gap-2">
-            <span className="text-green-500">✔</span>
+            <span className="text-[#0c4c2d]">✔</span>
             <span className="text-sm md:text-base">8+ years experience in Prosthodontics & Implantology</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-green-500">✔</span>
+            <span className="text-[#0c4c2d]">✔</span>
             <span className="text-sm md:text-base">10% discount on Full treatment payment</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-green-500">✔</span>
+            <span className="text-[#0c4c2d]">✔</span>
             <span className="text-sm md:text-base">0% Interest EMI options available</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-green-500">✔</span>
+            <span className="text-[#0c4c2d]">✔</span>
             <span className="text-sm md:text-base">Advanced digital technology with in-house digital scanner</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-green-500">✔</span>
+            <span className="text-[#0c4c2d]">✔</span>
             <span className="text-sm md:text-base">Same day implant placement - fix teeth immediately</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-green-500">✔</span>
+            <span className="text-[#0c4c2d]">✔</span>
             <span className="text-sm md:text-base">Complete all teeth restoration within 3 days</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-green-500">✔</span>
+            <span className="text-[#0c4c2d]">✔</span>
             <span className="text-sm md:text-base">500+ successful dental implants placed and restored</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-green-500">✔</span>
+            <span className="text-[#0c4c2d]">✔</span>
             <span className="text-sm md:text-base">Modern clinic at NIBM Road, Pune with ethical practice approach</span>
           </li>
         </ul>
-        <button onClick={onBookAppointment} className="bg-rose-400 text-slate-800 py-3 px-6 rounded-lg font-bold w-full hover:bg-rose-300 transition-colors md:max-w-md md:mx-auto md:block">
+        <button onClick={onBookAppointment} className="bg-[#c8a871] text-[#0c4c2d] py-3 px-6 rounded-lg font-bold w-full hover:bg-[#b89a6a] transition-colors md:max-w-md md:mx-auto md:block">
           Request a Call back ➤
         </button>
         <small className="block text-center mt-2 text-gray-600 md:text-base">
