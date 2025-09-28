@@ -15,8 +15,8 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
             <div className="w-48 h-48 md:w-64 md:h-64 bg-gray-200 rounded-lg mx-auto mb-4 flex items-center justify-center overflow-hidden relative">
               <Image src="/doc.png" alt="Dr. Umang Shah" layout="fill" objectFit="cover" className="rounded-lg" />
             </div>
-            <h3 className="text-xl md:text-2xl font-bold text-slate-800">Dr. Umang Shah | Dr Jyoti Shah</h3>
-            <p className="text-orange-500 font-medium">Prosthodontist | Implantologist | Certified Invisalign Provider</p>
+            <h3 className="text-xl md:text-2xl font-bold text-[#0c4c2d]">Dr. Umang Shah | Dr Jyoti Shah</h3>
+            <p className="text-[#c8a871] font-medium">Prosthodontist | Implantologist | Certified Invisalign Provider</p>
           </div>
 
           <div className="space-y-4 text-gray-700 md:flex-grow">
@@ -34,29 +34,29 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
 
             <div className="md:grid md:grid-cols-2 md:gap-8 mt-6">
               <div>
-                <h3 className="font-bold text-slate-800 mb-3 md:text-lg">Professional Credentials</h3>
+                <h3 className="font-bold text-[#0c4c2d] mb-3 md:text-lg">Professional Credentials</h3>
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2">
-                    <span className="text-slate-800">🏅</span>
+                    <span className="text-[#0c4c2d]">🏅</span>
                     <span className="md:text-lg">AFAAID (USA), ACDI and AACD(USA)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-slate-800">🏅</span>
+                    <span className="text-[#0c4c2d]">🏅</span>
                     <span className="md:text-lg">Member of Indian Prosthodontist Society</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-slate-800">🏅</span>
+                    <span className="text-[#0c4c2d]">🏅</span>
                     <span className="md:text-lg">Member of Academy of Cosmetic Dentistry India</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-slate-800">🏅</span>
+                    <span className="text-[#0c4c2d]">🏅</span>
                     <span className="md:text-lg">Member of Indian Society of Oral Implantology</span>
                   </li>
                 </ul>
               </div>
 
               <div>
-                <h3 className="font-bold text-slate-800 mt-6 mb-3 md:mt-0 md:text-lg">Expertise & Innovation</h3>
+                <h3 className="font-bold text-[#0c4c2d] mt-6 mb-3 md:mt-0 md:text-lg">Expertise & Innovation</h3>
                 <p className="md:text-lg">
                   As a certified Invisalign provider, Dr. Shah offers modern, minimally invasive orthodontic solutions. His commitment to excellence is evident in his consistent treatment outcomes and focus on functional and aesthetic restoration.
                 </p>
@@ -65,7 +65,7 @@ export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps)
           </div>
         </div>
 
-        <button onClick={onBookAppointment} className="bg-rose-400 text-slate-800 py-3 px-6 rounded-lg font-bold w-full md:max-w-md md:mx-auto md:block">
+        <button onClick={onBookAppointment} className="bg-[#c8a871] text-[#0c4c2d] py-3 px-6 rounded-lg font-bold w-full md:max-w-md md:mx-auto md:block">
           BOOK APPOINTMENT WITH DR. SHAH
         </button>
       </div>

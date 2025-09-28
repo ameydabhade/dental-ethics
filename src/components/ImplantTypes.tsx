@@ -48,12 +48,12 @@ export default function ImplantTypes() {
   ];
 
   return (
-    <section className="bg-slate-800 text-white p-4 md:p-8 lg:p-12 pb-16">
+    <section className="bg-[#0c4c2d] text-white p-4 md:p-8 lg:p-12 pb-16">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-2xl md:text-4xl font-bold text-center text-rose-400 mb-4">
+        <h2 className="text-2xl md:text-4xl font-bold text-center text-[#c8a871] mb-4">
           When it comes to Dental Implants, choose <em>The Dental Ethics</em>
         </h2>
-        <p className="text-center text-green-100 mb-8 md:text-lg max-w-3xl mx-auto">
+        <p className="text-center text-white/90 mb-8 md:text-lg max-w-3xl mx-auto">
           At The Dental Ethics, we specialize in providing comprehensive prosthodontics, implantology, smile designing, and Invisalign treatment with advanced digital technology and ethical practice.
         </p>
 
@@ -68,7 +68,7 @@ export default function ImplantTypes() {
               <ul className="space-y-1">
                 {implant.benefits.map((benefit, i) => (
                   <li key={i} className="flex items-start gap-2">
-                    <span className="text-green-500">✓</span>
+                    <span className="text-[#0c4c2d]">✓</span>
                     <span className="text-sm md:text-base">{benefit}</span>
                   </li>
                 ))}
