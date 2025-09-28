@@ -29,23 +29,28 @@ export default function Footer() {
 
           <div>
             <h3 className="font-bold text-[#0c4c2d] mb-2 md:text-lg">Location</h3>
-            <p className="text-[#0c4c2d] font-bold">
+            <a 
+              href="https://www.google.com/maps/place/Dr.+Umang+Shah%E2%80%99s+The+Dental+Ethics+%7C+Braces+%7C+Aligner+%7C+Implant+%7C+Dentist+%7C+Undri/@18.4635204,73.9001882,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bed8154ac8a3:0xdfda32bcda5ded3b!8m2!3d18.4635204!4d73.9023631!16s%2Fg%2F11q8q8q8q8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#0c4c2d] font-bold hover:text-[#0a3f26] transition-colors cursor-pointer"
+            >
               📍 Office no 204, Gagan Ela, NIBM Road, next to Runwal Diamond, Diagonally opposite to California Society, Pune 411048
-            </p>
+            </a>
           </div>
         </div>
 
         {/* Google Maps Embed */}
         <div className="mt-6 bg-gray-200 rounded-lg overflow-hidden h-[300px] md:h-[400px]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.2756147924823!2d73.90089431496994!3d18.48890008746926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0457f6de343%3A0x5e8c5c4b8b8b8b8b!2sNIBM%20Rd%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1748115653813!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.44436612999!2d73.9001881780467!3d18.463520437803222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bed8154ac8a3%3A0xdfda32bcda5ded3b!2sDr.%20Umang%20Shah%E2%80%99s%20The%20Dental%20Ethics%20%7C%20Braces%20%7C%20Aligner%20%7C%20Implant%20%7C%20Dentist%20%7C%20Undri!5e0!3m2!1sen!2sin!4v1759043868274!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="The Dental Ethics Location - NIBM Road, Pune"
+            title="The Dental Ethics Location - Dr. Umang Shah's Clinic, Undri, Pune"
           ></iframe>
         </div>
       </div>
