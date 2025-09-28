@@ -25,6 +25,10 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
                 <video 
                   src={`/videos/${item.video}`}
                   controls
+                  autoPlay
+                  muted
+                  playsInline
+                  loop
                   className="w-full h-full object-cover"
                   poster={`/images/results/${index + 1}before.png`}
                 >
@@ -46,7 +50,7 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
         <h3 className="text-xl md:text-2xl font-bold text-center text-[#0c4c2d] mb-6">
           More Patient Success Stories
         </h3>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 mb-6">
           {[
             { video: "test1.mp4", title: "Success Story 1" },
             { video: "test2.mp4", title: "Success Story 2" }
@@ -55,6 +59,10 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
               <video 
                 src={`/videos/${item.video}`}
                 controls
+                autoPlay
+                muted
+                playsInline
+                loop
                 className="absolute inset-0 w-full h-full object-cover"
               >
                 Your browser does not support the video tag.
