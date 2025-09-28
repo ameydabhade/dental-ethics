@@ -14,37 +14,27 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
         Witness the before and after the magic of our Painless Dental Implants!
       </p>
 
-      <div className="grid md:grid-cols-2 gap-6">
-        {[1, 2, 3, 4].map((i) => (
-          <div key={i} className="bg-gray-100 rounded-xl p-4">
-            <div className="flex flex-col gap-4">
-              <div className="flex flex-col items-center">
-                <div className="bg-white rounded-xl p-2 w-full">
-                  <div className="relative w-full min-h-[160px] md:min-h-[192px] max-h-[400px]">
-                    <Image 
-                  src={`/images/results/${i}before.png`} 
-                  alt={`Before Smile ${i}`} 
-                      fill
-                      className="object-contain rounded-lg"
-                />
-                  </div>
-                </div>
-                <span className="text-sm mt-2 text-gray-600 font-medium">Before</span>
-              </div>
-              <div className="flex flex-col items-center">
-                <div className="bg-white rounded-xl p-2 w-full">
-                  <div className="relative w-full min-h-[160px] md:min-h-[192px] max-h-[400px]">
-                    <Image 
-                  src={`/images/results/${i}after.png`} 
-                  alt={`After Smile ${i}`} 
-                      fill
-                      className="object-contain rounded-lg"
-                />
-                  </div>
-                </div>
-                <span className="text-sm mt-2 text-gray-600 font-medium">After</span>
+      {/* Before & After Videos */}
+      <div className="grid md:grid-cols-3 gap-6 mb-8">
+        {[
+          { video: "beforeafter1.mp4", title: "Transformation 1" },
+          { video: "beforeafter2.mp4", title: "Transformation 2" },
+          { video: "beforeafter3.mp4", title: "Transformation 3" }
+        ].map((item, index) => (
+          <div key={index} className="bg-gray-100 rounded-xl p-4">
+            <div className="bg-white rounded-xl p-2 w-full">
+              <div className="relative w-full h-[300px] md:h-[400px] rounded-lg overflow-hidden">
+                <video 
+                  src={`/videos/${item.video}`}
+                  controls
+                  className="w-full h-full object-cover"
+                  poster={`/images/results/${index + 1}before.png`}
+                >
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
+            <h3 className="text-center text-sm mt-3 text-[#0c4c2d] font-bold">{item.title}</h3>
           </div>
         ))}
       </div>
@@ -54,26 +44,26 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
         Explore the magic of your potential new smile today!
       </p>
 
-      <div className="max-w-4xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-6 mb-6">
-          <div className="bg-gray-200 rounded-xl overflow-hidden relative" style={{ paddingBottom: '177.78%' }}>
-            <video 
-              src="/videos/test1.mp4" 
-              controls
-              className="absolute inset-0 w-full h-full object-cover"
-            >
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div className="bg-gray-200 rounded-xl overflow-hidden relative" style={{ paddingBottom: '177.78%' }}>
-            <video 
-              src="/videos/test2.mp4" 
-              controls
-              className="absolute inset-0 w-full h-full object-cover"
-            >
-              Your browser does not support the video tag.
-            </video>
-          </div>
+      <div className="max-w-6xl mx-auto">
+        <h3 className="text-xl md:text-2xl font-bold text-center text-[#0c4c2d] mb-6">
+          More Patient Success Stories
+        </h3>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+          {[
+            { video: "test1.mp4", title: "Success Story 1" },
+            { video: "test2.mp4", title: "Success Story 2" },
+            { video: "beforeafter1.mp4", title: "Complete Transformation" }
+          ].map((item, index) => (
+            <div key={index} className="bg-gray-200 rounded-xl overflow-hidden relative" style={{ paddingBottom: '177.78%' }}>
+              <video 
+                src={`/videos/${item.video}`}
+                controls
+                className="absolute inset-0 w-full h-full object-cover"
+              >
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          ))}
         </div>
         <button onClick={onBookAppointment} className="bg-[#c8a871] text-[#0c4c2d] py-3 px-6 rounded-lg font-bold w-full mb-2">
           Request a Call back ➤
