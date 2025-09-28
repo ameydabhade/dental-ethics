@@ -54,25 +54,33 @@ export default function TransformingSmiles({ onBookAppointment }: TransformingSm
         Explore the magic of your potential new smile today!
       </p>
 
-      <div className="max-w-3xl mx-auto">
-        <div>
-          <div className="bg-gray-200 rounded-xl overflow-hidden mb-4 relative" style={{ paddingBottom: '133.33%' }}>
+      <div className="max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-6 mb-6">
+          <div className="bg-gray-200 rounded-xl overflow-hidden relative" style={{ paddingBottom: '177.78%' }}>
             <video 
-              src="/videos/2.mp4" 
+              src="/videos/test1.mp4" 
               controls
               className="absolute inset-0 w-full h-full object-cover"
-              poster="/videos/1-thumbnail.jpg"
             >
               Your browser does not support the video tag.
             </video>
           </div>
-          <button onClick={onBookAppointment} className="bg-yellow-400 text-blue-900 py-3 px-6 rounded-lg font-bold w-full mb-2">
-            Request a Call back ➤
-          </button>
-          <small className="block text-center text-gray-600">
-            Complimentary Consultation & Digital scan (Worth ₹1,000)
-          </small>
+          <div className="bg-gray-200 rounded-xl overflow-hidden relative" style={{ paddingBottom: '177.78%' }}>
+            <video 
+              src="/videos/test2.mp4" 
+              controls
+              className="absolute inset-0 w-full h-full object-cover"
+            >
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
+        <button onClick={onBookAppointment} className="bg-yellow-400 text-blue-900 py-3 px-6 rounded-lg font-bold w-full mb-2">
+          Request a Call back ➤
+        </button>
+        <small className="block text-center text-gray-600">
+          Complimentary Consultation & Digital scan (Worth ₹1,000)
+        </small>
       </div>
     </section>
   );
