@@ -14,11 +14,16 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
         <div className="relative rounded-lg h-48 md:h-[400px] mb-6 md:mb-0 md:flex-1 overflow-hidden shadow-lg">
-          <Image 
-            src="/images/hero.png" 
-            alt="Dental Implant Showcase" 
-            layout="fill"
-            objectFit="cover"
+          <iframe 
+            width="100%" 
+            height="100%" 
+            src="https://www.youtube.com/embed/ckXSC0t8xYU?si=cgiA8IBicWIe82Ss&start=129" 
+            title="YouTube video player" 
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerPolicy="strict-origin-when-cross-origin" 
+            allowFullScreen
+            className="absolute inset-0 w-full h-full"
           />
         </div>
 
